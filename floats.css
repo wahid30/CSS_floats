@@ -1,0 +1,55 @@
+.author-img {
+  width: 50px;
+  float: left;
+}
+
+/* .author {
+  margin-left: 60px;
+} */
+.author {
+  float: left;
+  margin-left: 20px;
+}
+
+.header nav a {
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+}
+
+.header h2 {
+  float: left;
+}
+
+.header nav {
+  float: right;
+}
+
+.header {
+  background-color: antiquewhite;
+}
+.clear {
+  clear: both;
+}
+
+/* Another technique */
+.header-update nav a {
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+}
+
+.header-update h2 {
+  float: left;
+}
+
+.header-update nav {
+  float: right;
+}
+
+.header-update {
+  background-color: antiquewhite;
+}
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}

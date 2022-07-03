@@ -1,0 +1,44 @@
+.header {
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  float: left;
+}
+
+.header nav {
+  float: right;
+  margin-top: 30px;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.artical img {
+  width: 50px;
+  float: left;
+}
+
+.artical p {
+  float: left;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.detail-picture img {
+  float: left;
+  width: 825px;
+}
+.detail-artical p {
+  float: right;
+  width: 300px;
+  padding: 15px;
+  border: 2px solid red;
+}
+
+.footer p {
+  clear: both;
+}
